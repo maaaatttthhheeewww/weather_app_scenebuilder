@@ -22,7 +22,8 @@ public class Controller implements Initializable, Co_ordinates{
 	@FXML
 	private Button bt;
 	
-	private String[] places = {"Dublin", "London", "Rome", "Paris", "Madrid", "Armento", "Aughrim"};
+	private String[] places = {"Dublin", "London", "Rome", "Paris",
+			"Madrid", "Armento", "Aughrim", "Bogay", "Granard"};
 @Override
 public void initialize(URL arg0, ResourceBundle arg1) {
 	myChoiceBox.getItems().addAll(places);

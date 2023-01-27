@@ -8,7 +8,9 @@ public interface Co_ordinates {
 	 Madrid("latitude=40.42&longitude=-3.70"),
 	 Paris("latitude=48.85&longitude=2.35"),
 	 Aughrim("latitude=52.85&longitude=-6.33"), 
-	 Armento("latitude=40.31&longitude=16.07");
+	 Armento("latitude=40.31&longitude=16.07"),
+	 Bogay("latitude=54.99&longitude=-7.43"),
+	 Granard("latitude=53.78&longitude=-7.49");
 
 	coOrdinates(String string) {
 		// TODO Auto-generated constructor stub
